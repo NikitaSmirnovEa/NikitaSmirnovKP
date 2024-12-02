@@ -1,0 +1,194 @@
+C:\Users\n5201-00-108\Desktop\vulrill\bin\Debug\vulrill.exe.config
+C:\Users\n5201-00-108\Desktop\vulrill\bin\Debug\vulrill.exe
+C:\Users\n5201-00-108\Desktop\vulrill\bin\Debug\vulrill.pdb
+C:\Users\n5201-00-108\Desktop\vulrill\obj\Debug\vulrill.csproj.AssemblyReference.cache
+C:\Users\n5201-00-108\Desktop\vulrill\obj\Debug\vulrill.Form1.resources
+C:\Users\n5201-00-108\Desktop\vulrill\obj\Debug\vulrill.Properties.Resources.resources
+C:\Users\n5201-00-108\Desktop\vulrill\obj\Debug\vulrill.csproj.GenerateResource.cache
+C:\Users\n5201-00-108\Desktop\vulrill\obj\Debug\vulrill.csproj.CoreCompileInputs.cache
+C:\Users\n5201-00-108\Desktop\vulrill\obj\Debug\vulrill.exe
+C:\Users\n5201-00-108\Desktop\vulrill\obj\Debug\vulrill.pdb
+C:\Users\n5201-00-108\Desktop\vulrill\obj\Debug\vulrill.csproj.Up2Date
+C:\Users\n5201-00-108\Desktop\vulrill\obj\Debug\vulrill.adminPanel.resources
+C:\Users\nikit\OneDrive\Рабочий стол\vulrill\bin\Debug\vulrill.exe.config
+C:\Users\nikit\OneDrive\Рабочий стол\vulrill\bin\Debug\vulrill.exe
+C:\Users\nikit\OneDrive\Рабочий стол\vulrill\bin\Debug\vulrill.pdb
+C:\Users\nikit\OneDrive\Рабочий стол\vulrill\obj\Debug\vulrill.csproj.AssemblyReference.cache
+C:\Users\nikit\OneDrive\Рабочий стол\vulrill\obj\Debug\vulrill.adminPanel.resources
+C:\Users\nikit\OneDrive\Рабочий стол\vulrill\obj\Debug\vulrill.Form1.resources
+C:\Users\nikit\OneDrive\Рабочий стол\vulrill\obj\Debug\vulrill.Properties.Resources.resources
+C:\Users\nikit\OneDrive\Рабочий стол\vulrill\obj\Debug\vulrill.csproj.GenerateResource.cache
+C:\Users\nikit\OneDrive\Рабочий стол\vulrill\obj\Debug\vulrill.csproj.CoreCompileInputs.cache
+C:\Users\nikit\OneDrive\Рабочий стол\vulrill\obj\Debug\vulrill.csproj.CopyComplete
+C:\Users\nikit\OneDrive\Рабочий стол\vulrill\obj\Debug\vulrill.exe
+C:\Users\nikit\OneDrive\Рабочий стол\vulrill\obj\Debug\vulrill.pdb
+C:\Users\student250\Desktop\vulrill\bin\Debug\vulrill.exe.config
+C:\Users\student250\Desktop\vulrill\bin\Debug\vulrill.exe
+C:\Users\student250\Desktop\vulrill\bin\Debug\vulrill.pdb
+C:\Users\student250\Desktop\vulrill\obj\Debug\vulrill.adminPanel.resources
+C:\Users\student250\Desktop\vulrill\obj\Debug\vulrill.Form1.resources
+C:\Users\student250\Desktop\vulrill\obj\Debug\vulrill.Properties.Resources.resources
+C:\Users\student250\Desktop\vulrill\obj\Debug\vulrill.csproj.GenerateResource.cache
+C:\Users\student250\Desktop\vulrill\obj\Debug\vulrill.csproj.CoreCompileInputs.cache
+C:\Users\student250\Desktop\vulrill\obj\Debug\vulrill.csproj.CopyComplete
+C:\Users\student250\Desktop\vulrill\obj\Debug\vulrill.exe
+C:\Users\student250\Desktop\vulrill\obj\Debug\vulrill.pdb
+C:\Users\student250\Desktop\vulrill\obj\Debug\vulrill.csproj.AssemblyReference.cache
+C:\Users\nikit\OneDrive\Рабочий стол\курсач\vulrill\bin\Debug\vulrill.exe.config
+C:\Users\nikit\OneDrive\Рабочий стол\курсач\vulrill\bin\Debug\vulrill.exe
+C:\Users\nikit\OneDrive\Рабочий стол\курсач\vulrill\bin\Debug\vulrill.pdb
+C:\Users\nikit\OneDrive\Рабочий стол\курсач\vulrill\obj\Debug\vulrill.adminPanel.resources
+C:\Users\nikit\OneDrive\Рабочий стол\курсач\vulrill\obj\Debug\vulrill.Form1.resources
+C:\Users\nikit\OneDrive\Рабочий стол\курсач\vulrill\obj\Debug\vulrill.Properties.Resources.resources
+C:\Users\nikit\OneDrive\Рабочий стол\курсач\vulrill\obj\Debug\vulrill.csproj.GenerateResource.cache
+C:\Users\nikit\OneDrive\Рабочий стол\курсач\vulrill\obj\Debug\vulrill.csproj.CoreCompileInputs.cache
+C:\Users\nikit\OneDrive\Рабочий стол\курсач\vulrill\obj\Debug\vulrill.csproj.CopyComplete
+C:\Users\nikit\OneDrive\Рабочий стол\курсач\vulrill\obj\Debug\vulrill.exe
+C:\Users\nikit\OneDrive\Рабочий стол\курсач\vulrill\obj\Debug\vulrill.pdb
+C:\Users\n5201-00-108\Desktop\курсач\vulrill\bin\Debug\vulrill.exe.config
+C:\Users\n5201-00-108\Desktop\курсач\vulrill\bin\Debug\vulrill.exe
+C:\Users\n5201-00-108\Desktop\курсач\vulrill\bin\Debug\vulrill.pdb
+C:\Users\n5201-00-108\Desktop\курсач\vulrill\obj\Debug\vulrill.csproj.AssemblyReference.cache
+C:\Users\n5201-00-108\Desktop\курсач\vulrill\obj\Debug\vulrill.adminPanel.resources
+C:\Users\n5201-00-108\Desktop\курсач\vulrill\obj\Debug\vulrill.Form1.resources
+C:\Users\n5201-00-108\Desktop\курсач\vulrill\obj\Debug\vulrill.Properties.Resources.resources
+C:\Users\n5201-00-108\Desktop\курсач\vulrill\obj\Debug\vulrill.csproj.GenerateResource.cache
+C:\Users\n5201-00-108\Desktop\курсач\vulrill\obj\Debug\vulrill.csproj.CoreCompileInputs.cache
+C:\Users\n5201-00-108\Desktop\курсач\vulrill\obj\Debug\vulrill.csproj.Up2Date
+C:\Users\n5201-00-108\Desktop\курсач\vulrill\obj\Debug\vulrill.exe
+C:\Users\n5201-00-108\Desktop\курсач\vulrill\obj\Debug\vulrill.pdb
+C:\Users\n5201-00-108\Desktop\курсач\vulrill\obj\Debug\vulrill.menu.resources
+C:\Users\nikit\OneDrive\Рабочий стол\курсач\vulrill\obj\Debug\vulrill.csproj.AssemblyReference.cache
+C:\Users\nikit\OneDrive\Рабочий стол\курсач\vulrill\obj\Debug\vulrill.menu.resources
+C:\Users\student250\Desktop\сдать\курсач\vulrill\bin\Debug\vulrill.exe.config
+C:\Users\student250\Desktop\сдать\курсач\vulrill\bin\Debug\vulrill.exe
+C:\Users\student250\Desktop\сдать\курсач\vulrill\bin\Debug\vulrill.pdb
+C:\Users\student250\Desktop\сдать\курсач\vulrill\obj\Debug\vulrill.csproj.AssemblyReference.cache
+C:\Users\student250\Desktop\сдать\курсач\vulrill\obj\Debug\vulrill.adminPanel.resources
+C:\Users\student250\Desktop\сдать\курсач\vulrill\obj\Debug\vulrill.Form1.resources
+C:\Users\student250\Desktop\сдать\курсач\vulrill\obj\Debug\vulrill.menu.resources
+C:\Users\student250\Desktop\сдать\курсач\vulrill\obj\Debug\vulrill.Properties.Resources.resources
+C:\Users\student250\Desktop\сдать\курсач\vulrill\obj\Debug\vulrill.csproj.GenerateResource.cache
+C:\Users\student250\Desktop\сдать\курсач\vulrill\obj\Debug\vulrill.csproj.CoreCompileInputs.cache
+C:\Users\student250\Desktop\сдать\курсач\vulrill\obj\Debug\vulrill.csproj.CopyComplete
+C:\Users\student250\Desktop\сдать\курсач\vulrill\obj\Debug\vulrill.exe
+C:\Users\student250\Desktop\сдать\курсач\vulrill\obj\Debug\vulrill.pdb
+C:\Users\student250\Desktop\сдать\курсач\vulrill\obj\Debug\vulrill.Заказы.resources
+C:\Users\nikit\OneDrive\Рабочий стол\сдать\курсач\vulrill\obj\Debug\vulrill.csproj.AssemblyReference.cache
+C:\Users\nikit\OneDrive\Рабочий стол\сдать\курсач\vulrill\obj\Debug\vulrill.adminPanel.resources
+C:\Users\nikit\OneDrive\Рабочий стол\сдать\курсач\vulrill\obj\Debug\vulrill.Form1.resources
+C:\Users\nikit\OneDrive\Рабочий стол\сдать\курсач\vulrill\obj\Debug\vulrill.menu.resources
+C:\Users\nikit\OneDrive\Рабочий стол\сдать\курсач\vulrill\obj\Debug\vulrill.Заказы.resources
+C:\Users\nikit\OneDrive\Рабочий стол\сдать\курсач\vulrill\obj\Debug\vulrill.Properties.Resources.resources
+C:\Users\nikit\OneDrive\Рабочий стол\сдать\курсач\vulrill\obj\Debug\vulrill.csproj.GenerateResource.cache
+C:\Users\nikit\OneDrive\Рабочий стол\сдать\курсач\vulrill\obj\Debug\vulrill.csproj.CoreCompileInputs.cache
+C:\Users\nikit\OneDrive\Рабочий стол\сдать\курсач\vulrill\obj\Debug\vulrill.exe
+C:\Users\nikit\OneDrive\Рабочий стол\сдать\курсач\vulrill\obj\Debug\vulrill.pdb
+C:\Users\n5201-00-108\Desktop\курсач\vulrill\obj\Debug\vulrill.Заказы.resources
+C:\Users\n5201-00-108\Desktop\курсач\vulrill\obj\Debug\vulrill.employee.resources
+C:\Users\n5201-00-108\Desktop\курсач\vulrill\obj\Debug\vulrill.employee_add.resources
+C:\Users\n5201-00-108\Desktop\курсач\vulrill\obj\Debug\vulrill.employee_edit.resources
+C:\Users\n5201-00-108\Desktop\курсач\vulrill\obj\Debug\vulrill.master.resources
+C:\Users\n5201-00-108\Desktop\курсач\vulrill\obj\Debug\vulrill.master_add.resources
+C:\Users\n5201-00-108\Desktop\курсач\vulrill\obj\Debug\vulrill.master_edit.resources
+C:\Users\n5201-00-108\Desktop\курсач\vulrill\obj\Debug\vulrill.client.resources
+C:\Users\n5201-00-108\Desktop\vulrill\obj\Debug\vulrill.client.resources
+C:\Users\n5201-00-108\Desktop\vulrill\obj\Debug\vulrill.master.resources
+C:\Users\n5201-00-108\Desktop\vulrill\obj\Debug\vulrill.master_add.resources
+C:\Users\n5201-00-108\Desktop\vulrill\obj\Debug\vulrill.master_edit.resources
+C:\Users\n5201-00-108\Desktop\vulrill\obj\Debug\vulrill.employee.resources
+C:\Users\n5201-00-108\Desktop\vulrill\obj\Debug\vulrill.employee_add.resources
+C:\Users\n5201-00-108\Desktop\vulrill\obj\Debug\vulrill.employee_edit.resources
+C:\Users\n5201-00-108\Desktop\vulrill\obj\Debug\vulrill.menu.resources
+C:\Users\n5201-00-108\Desktop\vulrill\obj\Debug\vulrill.Заказы.resources
+C:\Users\n5201-00-108\Desktop\vulrill\obj\Debug\vulrill.Клиенты.client_add.resources
+C:\Users\n5201-00-108\Desktop\vulrill\obj\Debug\vulrill.Клиенты.client_edit.resources
+C:\Users\n5201-00-108\Desktop\vulrill\obj\Debug\vulrill.Эскизы.sketch.resources
+C:\Users\n5201-00-108\Desktop\vulrill\obj\Debug\vulrill.Эскизы.sketch_add.resources
+C:\Users\n5201-00-108\Desktop\vulrill\obj\Debug\vulrill.Эскизы.sketch_edit.resources
+C:\Users\n5201-00-108\Desktop\vulrill\obj\Debug\vulrill.report.resources
+C:\Users\nikit\OneDrive\Рабочий стол\курсач\vulrill\obj\Debug\vulrill.report.resources
+C:\Users\nikit\OneDrive\Рабочий стол\курсач\vulrill\obj\Debug\vulrill.client.resources
+C:\Users\nikit\OneDrive\Рабочий стол\курсач\vulrill\obj\Debug\vulrill.Клиенты.client_add.resources
+C:\Users\nikit\OneDrive\Рабочий стол\курсач\vulrill\obj\Debug\vulrill.Клиенты.client_edit.resources
+C:\Users\nikit\OneDrive\Рабочий стол\курсач\vulrill\obj\Debug\vulrill.master.resources
+C:\Users\nikit\OneDrive\Рабочий стол\курсач\vulrill\obj\Debug\vulrill.master_add.resources
+C:\Users\nikit\OneDrive\Рабочий стол\курсач\vulrill\obj\Debug\vulrill.master_edit.resources
+C:\Users\nikit\OneDrive\Рабочий стол\курсач\vulrill\obj\Debug\vulrill.employee.resources
+C:\Users\nikit\OneDrive\Рабочий стол\курсач\vulrill\obj\Debug\vulrill.employee_add.resources
+C:\Users\nikit\OneDrive\Рабочий стол\курсач\vulrill\obj\Debug\vulrill.employee_edit.resources
+C:\Users\nikit\OneDrive\Рабочий стол\курсач\vulrill\obj\Debug\vulrill.Заказы.resources
+C:\Users\nikit\OneDrive\Рабочий стол\курсач\vulrill\obj\Debug\vulrill.Эскизы.sketch.resources
+C:\Users\nikit\OneDrive\Рабочий стол\курсач\vulrill\obj\Debug\vulrill.Эскизы.sketch_add.resources
+C:\Users\nikit\OneDrive\Рабочий стол\курсач\vulrill\obj\Debug\vulrill.Эскизы.sketch_edit.resources
+C:\Users\student250\Desktop\курсач\vulrill\obj\Debug\vulrill.csproj.AssemblyReference.cache
+C:\Users\student250\Desktop\курсач\vulrill\obj\Debug\vulrill.exe
+C:\Users\student250\Desktop\курсач\vulrill\obj\Debug\vulrill.pdb
+C:\Users\student250\Desktop\курсач\vulrill\bin\Debug\vulrill.exe.config
+C:\Users\student250\Desktop\курсач\vulrill\bin\Debug\vulrill.exe
+C:\Users\student250\Desktop\курсач\vulrill\bin\Debug\vulrill.pdb
+C:\Users\student250\Desktop\курсач\vulrill\obj\Debug\vulrill.adminPanel.resources
+C:\Users\student250\Desktop\курсач\vulrill\obj\Debug\vulrill.Form1.resources
+C:\Users\student250\Desktop\курсач\vulrill\obj\Debug\vulrill.report.resources
+C:\Users\student250\Desktop\курсач\vulrill\obj\Debug\vulrill.client.resources
+C:\Users\student250\Desktop\курсач\vulrill\obj\Debug\vulrill.Клиенты.client_add.resources
+C:\Users\student250\Desktop\курсач\vulrill\obj\Debug\vulrill.Клиенты.client_edit.resources
+C:\Users\student250\Desktop\курсач\vulrill\obj\Debug\vulrill.master.resources
+C:\Users\student250\Desktop\курсач\vulrill\obj\Debug\vulrill.master_add.resources
+C:\Users\student250\Desktop\курсач\vulrill\obj\Debug\vulrill.master_edit.resources
+C:\Users\student250\Desktop\курсач\vulrill\obj\Debug\vulrill.employee.resources
+C:\Users\student250\Desktop\курсач\vulrill\obj\Debug\vulrill.employee_add.resources
+C:\Users\student250\Desktop\курсач\vulrill\obj\Debug\vulrill.employee_edit.resources
+C:\Users\student250\Desktop\курсач\vulrill\obj\Debug\vulrill.menu.resources
+C:\Users\student250\Desktop\курсач\vulrill\obj\Debug\vulrill.Заказы.resources
+C:\Users\student250\Desktop\курсач\vulrill\obj\Debug\vulrill.Properties.Resources.resources
+C:\Users\student250\Desktop\курсач\vulrill\obj\Debug\vulrill.Эскизы.sketch.resources
+C:\Users\student250\Desktop\курсач\vulrill\obj\Debug\vulrill.Эскизы.sketch_add.resources
+C:\Users\student250\Desktop\курсач\vulrill\obj\Debug\vulrill.Эскизы.sketch_edit.resources
+C:\Users\student250\Desktop\курсач\vulrill\obj\Debug\vulrill.csproj.GenerateResource.cache
+C:\Users\student250\Desktop\курсач\vulrill\obj\Debug\vulrill.csproj.CoreCompileInputs.cache
+C:\Users\student250\Desktop\курсач\vulrill\obj\Debug\vulrill.csproj.CopyComplete
+C:\Users\n5201-00-108\Desktop\курсач\vulrill\obj\Debug\vulrill.report.resources
+C:\Users\n5201-00-108\Desktop\курсач\vulrill\obj\Debug\vulrill.Клиенты.client_add.resources
+C:\Users\n5201-00-108\Desktop\курсач\vulrill\obj\Debug\vulrill.Клиенты.client_edit.resources
+C:\Users\n5201-00-108\Desktop\курсач\vulrill\obj\Debug\vulrill.Эскизы.sketch.resources
+C:\Users\n5201-00-108\Desktop\курсач\vulrill\obj\Debug\vulrill.Эскизы.sketch_add.resources
+C:\Users\n5201-00-108\Desktop\курсач\vulrill\obj\Debug\vulrill.Эскизы.sketch_edit.resources
+C:\Users\student251\Desktop\курсач\vulrill\obj\Debug\vulrill.csproj.AssemblyReference.cache
+C:\Users\student251\Desktop\курсач\vulrill\obj\Debug\vulrill.exe.config
+C:\Users\student251\Desktop\курсач\vulrill\obj\Debug\vulrill.exe
+C:\Users\student251\Desktop\курсач\vulrill\obj\Debug\vulrill.pdb
+C:\Users\student251\Desktop\курсач\vulrill\bin\Debug\vulrill.exe.config
+C:\Users\student251\Desktop\курсач\vulrill\bin\Debug\vulrill.exe
+C:\Users\student251\Desktop\курсач\vulrill\bin\Debug\vulrill.pdb
+C:\Users\student251\Desktop\курсач\vulrill\bin\Debug\Google.Protobuf.dll
+C:\Users\student251\Desktop\курсач\vulrill\bin\Debug\ZstdNet.dll
+C:\Users\student251\Desktop\курсач\vulrill\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\student251\Desktop\курсач\vulrill\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\student251\Desktop\курсач\vulrill\bin\Debug\Ubiety.Dns.Core.dll
+C:\Users\student251\Desktop\курсач\vulrill\bin\Debug\System.Memory.dll
+C:\Users\student251\Desktop\курсач\vulrill\bin\Debug\System.Buffers.dll
+C:\Users\student251\Desktop\курсач\vulrill\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\student251\Desktop\курсач\vulrill\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\student251\Desktop\курсач\vulrill\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\student251\Desktop\курсач\vulrill\obj\Debug\vulrill.adminPanel.resources
+C:\Users\student251\Desktop\курсач\vulrill\obj\Debug\vulrill.Form1.resources
+C:\Users\student251\Desktop\курсач\vulrill\obj\Debug\vulrill.report.resources
+C:\Users\student251\Desktop\курсач\vulrill\obj\Debug\vulrill.client.resources
+C:\Users\student251\Desktop\курсач\vulrill\obj\Debug\vulrill.Клиенты.client_add.resources
+C:\Users\student251\Desktop\курсач\vulrill\obj\Debug\vulrill.Клиенты.client_edit.resources
+C:\Users\student251\Desktop\курсач\vulrill\obj\Debug\vulrill.master.resources
+C:\Users\student251\Desktop\курсач\vulrill\obj\Debug\vulrill.master_add.resources
+C:\Users\student251\Desktop\курсач\vulrill\obj\Debug\vulrill.master_edit.resources
+C:\Users\student251\Desktop\курсач\vulrill\obj\Debug\vulrill.employee.resources
+C:\Users\student251\Desktop\курсач\vulrill\obj\Debug\vulrill.employee_add.resources
+C:\Users\student251\Desktop\курсач\vulrill\obj\Debug\vulrill.employee_edit.resources
+C:\Users\student251\Desktop\курсач\vulrill\obj\Debug\vulrill.menu.resources
+C:\Users\student251\Desktop\курсач\vulrill\obj\Debug\vulrill.Заказы.resources
+C:\Users\student251\Desktop\курсач\vulrill\obj\Debug\vulrill.Properties.Resources.resources
+C:\Users\student251\Desktop\курсач\vulrill\obj\Debug\vulrill.Эскизы.sketch.resources
+C:\Users\student251\Desktop\курсач\vulrill\obj\Debug\vulrill.Эскизы.sketch_add.resources
+C:\Users\student251\Desktop\курсач\vulrill\obj\Debug\vulrill.Эскизы.sketch_edit.resources
+C:\Users\student251\Desktop\курсач\vulrill\obj\Debug\vulrill.csproj.GenerateResource.cache
+C:\Users\student251\Desktop\курсач\vulrill\obj\Debug\vulrill.csproj.CoreCompileInputs.cache
+C:\Users\student251\Desktop\курсач\vulrill\obj\Debug\vulrill.csproj.CopyComplete
