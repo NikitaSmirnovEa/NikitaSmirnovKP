@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using MySql.Data.MySqlClient;
+using System.Configuration;
 
 namespace vulrill
 {
@@ -59,7 +60,21 @@ namespace vulrill
             string login = textBox1.Text;
             string password = helper.CreateMD5(textBox2.Text);
 
-            using(MySqlConnection con = new MySqlConnection(helper.connect))
+            // Load admin credentials from config
+            string adminUsername = ConfigurationManager.AppSettings["AdminUsername"];
+            string adminPassword = ConfigurationManager.AppSettings["AdminPassword"];
+
+            if (login == adminUsername && password == helper.CreateMD5(adminPassword))
+            {
+                // If the credentials match, open the import form
+                this.Hide();
+                import importForm = new import(); // Oткрываем форму import
+                importForm.ShowDialog();
+                this.Show();
+                return;
+            }
+
+            using (MySqlConnection con = new MySqlConnection(helper.connect))
             {
                 try
                 {
@@ -80,7 +95,7 @@ namespace vulrill
                             helper.name = dt.Rows[0][4].ToString();
                             helper.patronymic = dt.Rows[0][5].ToString();
 
-                            MessageBox.Show($"Здраствуйте, {helper.name}!", "Авторизация", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                            MessageBox.Show($"Здравствуйте, {helper.name}!", "Авторизация", MessageBoxButtons.OK, MessageBoxIcon.Information);
                             textBox1.Clear(); textBox2.Clear();
 
                             if (helper.role == "Администратор")

@@ -192,3 +192,4 @@ C:\Users\student251\Desktop\курсач\vulrill\obj\Debug\vulrill.Эскизы.
 C:\Users\student251\Desktop\курсач\vulrill\obj\Debug\vulrill.csproj.GenerateResource.cache
 C:\Users\student251\Desktop\курсач\vulrill\obj\Debug\vulrill.csproj.CoreCompileInputs.cache
 C:\Users\student251\Desktop\курсач\vulrill\obj\Debug\vulrill.csproj.CopyComplete
+C:\Users\student251\Desktop\курсач\vulrill\obj\Debug\vulrill.import.resources

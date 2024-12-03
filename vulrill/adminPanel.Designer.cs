@@ -49,7 +49,7 @@
             this.button2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Gray;
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.ForeColor = System.Drawing.Color.White;
-            this.button2.Location = new System.Drawing.Point(60, 343);
+            this.button2.Location = new System.Drawing.Point(60, 341);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(153, 36);
             this.button2.TabIndex = 16;
@@ -100,7 +100,7 @@
             this.button4.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Gray;
             this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button4.ForeColor = System.Drawing.Color.White;
-            this.button4.Location = new System.Drawing.Point(34, 233);
+            this.button4.Location = new System.Drawing.Point(34, 231);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(220, 36);
             this.button4.TabIndex = 19;
@@ -175,20 +175,20 @@
             this.button6.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Gray;
             this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button6.ForeColor = System.Drawing.Color.White;
-            this.button6.Location = new System.Drawing.Point(34, 285);
+            this.button6.Location = new System.Drawing.Point(34, 282);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(220, 36);
             this.button6.TabIndex = 25;
-            this.button6.Text = "импорт данных";
+            this.button6.Text = "импорт";
             this.button6.UseVisualStyleBackColor = false;
-            this.button6.Click += new System.EventHandler(this.button6_Click);
+            this.button6.Click += new System.EventHandler(this.button6_Click_1);
             // 
             // adminPanel
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 23F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(23)))), ((int)(((byte)(28)))));
-            this.ClientSize = new System.Drawing.Size(304, 422);
+            this.ClientSize = new System.Drawing.Size(304, 404);
             this.Controls.Add(this.button6);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
