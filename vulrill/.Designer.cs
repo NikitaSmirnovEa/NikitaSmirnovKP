@@ -36,6 +36,11 @@
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
+            this.button5 = new System.Windows.Forms.Button();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.button4 = new System.Windows.Forms.Button();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // textBox1
@@ -128,12 +133,59 @@
             this.label3.Text = "АВТОРИЗАЦИЯ";
             this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
+            // button5
+            // 
+            this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.button5.ForeColor = System.Drawing.Color.Black;
+            this.button5.Location = new System.Drawing.Point(396, 252);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(172, 32);
+            this.button5.TabIndex = 44;
+            this.button5.Text = "ввести";
+            this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.BackColor = System.Drawing.Color.White;
+            this.pictureBox2.Location = new System.Drawing.Point(336, 12);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(301, 150);
+            this.pictureBox2.TabIndex = 40;
+            this.pictureBox2.TabStop = false;
+            // 
+            // textBox3
+            // 
+            this.textBox3.BackColor = System.Drawing.Color.White;
+            this.textBox3.Font = new System.Drawing.Font("Verdana", 12.75F);
+            this.textBox3.Location = new System.Drawing.Point(362, 180);
+            this.textBox3.MaxLength = 15;
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(230, 28);
+            this.textBox3.TabIndex = 42;
+            // 
+            // button4
+            // 
+            this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.button4.ForeColor = System.Drawing.Color.Black;
+            this.button4.Location = new System.Drawing.Point(396, 214);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(172, 32);
+            this.button4.TabIndex = 43;
+            this.button4.Text = "обновить";
+            this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 23F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(23)))), ((int)(((byte)(28)))));
-            this.ClientSize = new System.Drawing.Size(256, 265);
+            this.ClientSize = new System.Drawing.Size(269, 312);
+            this.Controls.Add(this.button5);
+            this.Controls.Add(this.button4);
+            this.Controls.Add(this.textBox3);
+            this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
@@ -150,6 +202,7 @@
             this.Text = "  ";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form1_FormClosing);
             this.Load += new System.EventHandler(this.Form1_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -164,6 +217,10 @@
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.Button button4;
     }
 }
 

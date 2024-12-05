@@ -192,3 +192,16 @@ C:\Users\student251\Desktop\курсач\vulrill\obj\Debug\vulrill.Эскизы.
 C:\Users\student251\Desktop\курсач\vulrill\obj\Debug\vulrill.csproj.GenerateResource.cache
 C:\Users\student251\Desktop\курсач\vulrill\obj\Debug\vulrill.csproj.CoreCompileInputs.cache
 C:\Users\student251\Desktop\курсач\vulrill\obj\Debug\vulrill.csproj.CopyComplete
+C:\Users\student251\Desktop\курсач\vulrill\obj\Debug\vulrill.import.resources
+C:\Users\nikit\OneDrive\Рабочий стол\курсач\vulrill\bin\Debug\Google.Protobuf.dll
+C:\Users\nikit\OneDrive\Рабочий стол\курсач\vulrill\bin\Debug\ZstdNet.dll
+C:\Users\nikit\OneDrive\Рабочий стол\курсач\vulrill\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\nikit\OneDrive\Рабочий стол\курсач\vulrill\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\nikit\OneDrive\Рабочий стол\курсач\vulrill\bin\Debug\Ubiety.Dns.Core.dll
+C:\Users\nikit\OneDrive\Рабочий стол\курсач\vulrill\bin\Debug\System.Memory.dll
+C:\Users\nikit\OneDrive\Рабочий стол\курсач\vulrill\bin\Debug\System.Buffers.dll
+C:\Users\nikit\OneDrive\Рабочий стол\курсач\vulrill\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\nikit\OneDrive\Рабочий стол\курсач\vulrill\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\nikit\OneDrive\Рабочий стол\курсач\vulrill\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\nikit\OneDrive\Рабочий стол\курсач\vulrill\obj\Debug\vulrill.exe.config
+C:\Users\nikit\OneDrive\Рабочий стол\курсач\vulrill\obj\Debug\vulrill.import.resources

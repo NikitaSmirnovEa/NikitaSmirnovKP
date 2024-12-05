@@ -8,6 +8,12 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using MySql.Data.MySqlClient;
+using System.Configuration;
+using System.Drawing.Drawing2D;
+using System.Data.SqlClient;
+using System.Xml.Linq;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
+using System.Threading;
 
 namespace vulrill
 {
@@ -17,7 +23,8 @@ namespace vulrill
         {
             InitializeComponent();
         }
-
+        private string captchaText;
+        string conString = helper.connect;
         protected override void OnShown(EventArgs e)
         {
             base.OnShown(e);
@@ -56,10 +63,42 @@ namespace vulrill
 
         private void button1_Click(object sender, EventArgs e)
         {
+            if (textBox1.Text == localAdmin.localName)
+            {
+                if (textBox2.Text == localAdmin.localPassword)
+                {
+                    helper.role = "Локальный";
+                    adminPanel admin = new adminPanel();
+                    this.Visible = false;
+                    admin.ShowDialog();
+                    this.Visible = true;
+                }
+                else
+                {
+                    MessageBox.Show("Неверный пароль");
+                    textBox2.Clear();
+                    Captha();
+                }
+                return;
+            }
             string login = textBox1.Text;
             string password = helper.CreateMD5(textBox2.Text);
 
-            using(MySqlConnection con = new MySqlConnection(helper.connect))
+            // Load admin credentials from config
+            string adminUsername = ConfigurationManager.AppSettings["AdminUsername"];
+            string adminPassword = ConfigurationManager.AppSettings["AdminPassword"];
+
+            if (login == adminUsername && password == helper.CreateMD5(adminPassword))
+            {
+                // If the credentials match, open the import form
+                this.Hide();
+                import importForm = new import(); // Oткрываем форму import
+                importForm.ShowDialog();
+                this.Show();
+                return;
+            }
+
+            using (MySqlConnection con = new MySqlConnection(helper.connect))
             {
                 try
                 {
@@ -80,7 +119,7 @@ namespace vulrill
                             helper.name = dt.Rows[0][4].ToString();
                             helper.patronymic = dt.Rows[0][5].ToString();
 
-                            MessageBox.Show($"Здраствуйте, {helper.name}!", "Авторизация", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                            MessageBox.Show($"Здравствуйте, {helper.name}!", "Авторизация", MessageBoxButtons.OK, MessageBoxIcon.Information);
                             textBox1.Clear(); textBox2.Clear();
 
                             if (helper.role == "Администратор")
@@ -90,21 +129,66 @@ namespace vulrill
                                 ap.ShowDialog();
                                 this.Show();
                             }
-                            else
-                            {
-                                this.Hide();
-                                menu MENU = new menu();
-                                MENU.ShowDialog();
-                                this.Show();
-                            }
                         }
-                        else { MessageBox.Show("Неверный пароль", "Авторизация", MessageBoxButtons.OK, MessageBoxIcon.Information); }
+                        else
+                        {
+                            MessageBox.Show("Неверный пароль");
+                            textBox2.Text = "";
+                            Captha();
+
+                          
+                        }
                     }
-                    else { MessageBox.Show("Сотрудник с таким логином не найден", "Авторизация", MessageBoxButtons.OK, MessageBoxIcon.Information); }
                 }
-                catch { MessageBox.Show("Произошла неизвестная ошибка", "Авторизация", MessageBoxButtons.OK, MessageBoxIcon.Error); }
+                catch (Exception ex)
+                {
+                    MessageBox.Show(ex.Message, "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    Captha();
+                }
             }
         }
+        private void Captha() //Создание капчи
+        {
+            button4.Enabled = true;
+            button5.Enabled = true;
+            textBox3.Enabled = true;
+            CaptchaToImage();
+            button1.Enabled = false;
+            textBox1.Text = null;
+            textBox2.Text = null;
+            this.Width = 700;
+        }
+        private void CaptchaToImage() //Отрисовка капчи
+        {
+            Random random = new Random();
+            string chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
+            captchaText = ""; for (int i = 0; i < 5; i++)
+            {
+                captchaText += chars[random.Next(chars.Length)];
+            }
+            Bitmap bmp = new Bitmap(pictureBox2.Width, pictureBox2.Height);
+            Graphics graphics = Graphics.FromImage(bmp);
+            graphics.SmoothingMode = SmoothingMode.AntiAlias; graphics.Clear(Color.Gray);
+            Font font = new Font("Arial", 25, FontStyle.Bold);
+            for (int i = 0; i < 5; i++)
+            {
+                PointF point = new PointF(i * 20, 0);
+                graphics.TranslateTransform(100, 50);
+                graphics.RotateTransform(random.Next(-10, 10));
+                graphics.DrawString(captchaText[i].ToString(), font, Brushes.Black, point);
+                graphics.ResetTransform();
+            }
+            for (int i = 0; i < 10; i++)
+            {
+                Pen pen = new Pen(Color.Black, random.Next(2, 5));
+                int x1 = random.Next(pictureBox2.Width);
+                int y1 = random.Next(pictureBox2.Height);
+                int x2 = random.Next(pictureBox2.Width);
+                int y2 = random.Next(pictureBox2.Height); graphics.DrawLine(pen, x1, y1, x2, y2);
+            }
+            pictureBox2.Image = bmp;
+        }
+
 
         private void button1_MouseEnter(object sender, EventArgs e)
         {
@@ -154,6 +238,29 @@ namespace vulrill
             char l = e.KeyChar;
             if ((l < 'A' || l > 'z') && l != 8 && (l < '0' || l > '9'))
             { e.Handled = true; }
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            Captha();
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            if (textBox3.Text == captchaText)
+            {
+                button1_Click(sender, e);
+            }
+            else //Блокировка системы на 10 секунд посленеудачного ввода
+            {
+                MessageBox.Show("Неверный ввод, блокировка системы на 10 секунд");
+                button5.Enabled = false;
+                button4.Enabled = false;
+                Thread.Sleep(10000);
+                button5.Enabled = true;
+                button4.Enabled = true;
+                Captha();
+            }
         }
     }
 }
