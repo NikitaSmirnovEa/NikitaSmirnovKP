@@ -228,6 +228,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <EmbeddedResource Include="Эскизы\sketch.resx">
       <DependentUpon>sketch.cs</DependentUpon>
@@ -254,6 +255,13 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="logo.ico" />
+    <None Include="Resources\1477409493_preview_arrow-bold-left--ios-7-interface-symbol_318-34824.jpg" />
+    <None Include="Resources\Red-Arrow-Clip-Art-Transparent-File.png" />
+    <None Include="Resources\ec98819ceb32ae95d11b39d0d8f57f75.jpg" />
+    <None Include="Resources\5a1c7851499b82.6138658315118152493015.png" />
+    <None Include="Resources\Red-Arrow-Clip-Art-Transparent-File1.png" />
+    <None Include="Resources\5a1c7851499b82.61386583151181524930151.png" />
+    <None Include="Resources\Red-Arrow-Clip-Art-Transparent-File2.png" />
     <Content Include="x_ray_radiology_imaging_medical_scan_icon_264509.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

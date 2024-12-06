@@ -212,6 +212,9 @@ namespace vulrill
 
         private void label9_Click(object sender, EventArgs e)
         {
+            adminPanel admin = new adminPanel();
+            this.Visible = false;
+            admin.ShowDialog();
             this.Close();
         }
     }

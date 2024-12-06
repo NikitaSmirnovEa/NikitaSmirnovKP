@@ -85,7 +85,7 @@ namespace vulrill
         private void button5_Click(object sender, EventArgs e)
         {
             this.Hide();
-            sketch SKETCH = new sketch();
+            menu SKETCH = new menu();//
             SKETCH.ShowDialog();
             this.Show();
         }

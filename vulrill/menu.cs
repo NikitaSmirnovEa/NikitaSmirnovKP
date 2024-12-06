@@ -128,5 +128,25 @@ namespace vulrill
         {
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+  
+        }
+
+        private void label9_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+        private void adminPanel(object sender, FormClosingEventArgs e)
+        {
+            var res = MessageBox.Show("Вы действительно вернуться в меню?", "панель админа", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+
+        }
+
     }
 }
