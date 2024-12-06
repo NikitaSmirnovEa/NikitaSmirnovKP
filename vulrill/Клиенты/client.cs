@@ -198,6 +198,7 @@ namespace vulrill
                         label6.ForeColor = Color.Aqua;
                         label9.ForeColor = Color.Black;
                     }
+                    //
                     else if (minScren == 30)
                     {
                         label1.ForeColor = Color.Black;
