@@ -17,7 +17,7 @@ namespace vulrill
         private System.Timers.Timer inactivityTimer;
         private int inactivityLimit; // Параметр бездействия в миллисекундах
 
-
+  
         public master()
         {
 
