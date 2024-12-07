@@ -121,6 +121,9 @@
   <data name="Red-Arrow-Clip-Art-Transparent-File1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Red-Arrow-Clip-Art-Transparent-File1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Red-Arrow-Clip-Art-Transparent-File2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Red-Arrow-Clip-Art-Transparent-File2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Red-Arrow-Clip-Art-Transparent-File" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Red-Arrow-Clip-Art-Transparent-File.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -130,13 +133,19 @@
   <data name="1477409493_preview_arrow-bold-left--ios-7-interface-symbol_318-34824" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\1477409493_preview_arrow-bold-left--ios-7-interface-symbol_318-34824.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="1646004345_1-kartinkin-net-p-strelochki-kartinki-1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1646004345_1-kartinkin-net-p-strelochki-kartinki-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1646004345_1-kartinkin-net-p-strelochki-kartinki-11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1646004345_1-kartinkin-net-p-strelochki-kartinki-11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="5a1c7851499b821" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\5a1c7851499b82.61386583151181524930151.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="ec98819ceb32ae95d11b39d0d8f57f75" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ec98819ceb32ae95d11b39d0d8f57f75.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Red-Arrow-Clip-Art-Transparent-File2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Red-Arrow-Clip-Art-Transparent-File2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="вц" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\вц.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

@@ -8,25 +8,28 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using vulrill.Эскизы;
+using System.Timers;
 
 namespace vulrill
 {
     public partial class adminPanel : Form
     {
+ 
+
         public adminPanel()
         {
             InitializeComponent();
+
         }
 
         private void adminPanel_Load(object sender, EventArgs e)
         {
             label2.Text = helper.surname + " " + helper.name;
+        
         }
-
         private void adminPanel_FormClosing(object sender, FormClosingEventArgs e)
         {
-            var res = MessageBox.Show("Вы действительно хотите выйти из аккаунта?", "Панель админа", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
-            e.Cancel = !(res == DialogResult.Yes);
+          
         }
         private void button2_Click(object sender, EventArgs e)
         {
@@ -63,7 +66,8 @@ namespace vulrill
             this.Hide();
             employee emp = new employee();
             emp.ShowDialog();
-            this.Show();
+            this.Hide();
+
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -71,23 +75,25 @@ namespace vulrill
             this.Hide();
             master MASTER = new master();
             MASTER.ShowDialog();
-            this.Show();
+            this.Hide();
         }
 
         private void button7_Click(object sender, EventArgs e)
         {
-            this.Hide();
-            client CLIENT = new client();
-            CLIENT.ShowDialog();
-            this.Show();
+            Hide();
+            using (client CLIENT = new client())
+            {
+                CLIENT.ShowDialog();
+            }
+            Show();
         }
 
         private void button5_Click(object sender, EventArgs e)
         {
             this.Hide();
-            menu SKETCH = new menu();//
+            menu SKETCH = new menu();
             SKETCH.ShowDialog();
-            this.Show();
+            this.Hide();
         }
 
         private void button4_Click(object sender, EventArgs e)
@@ -95,7 +101,7 @@ namespace vulrill
             this.Hide();
             report rep = new report();
             rep.ShowDialog();
-            this.Show();
+            this.Hide();
         }
 
         private void button6_Click(object sender, EventArgs e)
@@ -108,7 +114,7 @@ namespace vulrill
             this.Hide();
             import imp = new import();
             imp.ShowDialog();
-            this.Show();
+            this.Hide();
         }
     }
 }

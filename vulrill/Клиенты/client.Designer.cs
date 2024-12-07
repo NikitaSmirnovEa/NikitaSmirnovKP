@@ -42,12 +42,12 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
+            this.dgvUpdateForm = new System.Windows.Forms.DataGridView();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.dgvUpdateForm = new System.Windows.Forms.DataGridView();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvUpdateForm)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dgvUpdateForm)).BeginInit();
             this.SuspendLayout();
             // 
             // label4
@@ -131,7 +131,7 @@
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(193, 29);
             this.textBox3.TabIndex = 119;
-            this.textBox3.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
+            this.textBox3.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // label9
             // 
@@ -211,9 +211,26 @@
             this.label8.TabIndex = 131;
             this.label8.Text = "поиск";
             // 
+            // dgvUpdateForm
+            // 
+            this.dgvUpdateForm.AllowUserToAddRows = false;
+            this.dgvUpdateForm.AllowUserToDeleteRows = false;
+            this.dgvUpdateForm.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dgvUpdateForm.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.DisplayedCells;
+            this.dgvUpdateForm.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(23)))), ((int)(((byte)(28)))));
+            this.dgvUpdateForm.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvUpdateForm.GridColor = System.Drawing.SystemColors.Highlight;
+            this.dgvUpdateForm.Location = new System.Drawing.Point(1, 127);
+            this.dgvUpdateForm.Margin = new System.Windows.Forms.Padding(4);
+            this.dgvUpdateForm.Name = "dgvUpdateForm";
+            this.dgvUpdateForm.ReadOnly = true;
+            this.dgvUpdateForm.Size = new System.Drawing.Size(673, 400);
+            this.dgvUpdateForm.TabIndex = 132;
+            this.dgvUpdateForm.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvUpdateForm_CellContentClick);
+            // 
             // pictureBox2
             // 
-            this.pictureBox2.Image = global::vulrill.Properties.Resources.Red_Arrow_Clip_Art_Transparent_File2;
+            this.pictureBox2.Image = global::vulrill.Properties.Resources.вц;
             this.pictureBox2.Location = new System.Drawing.Point(251, 534);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(61, 50);
@@ -224,7 +241,7 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = global::vulrill.Properties.Resources._5a1c7851499b82_6138658315118152493015;
+            this.pictureBox1.Image = global::vulrill.Properties.Resources._1646004345_1_kartinkin_net_p_strelochki_kartinki_11;
             this.pictureBox1.Location = new System.Drawing.Point(318, 534);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(61, 50);
@@ -232,23 +249,6 @@
             this.pictureBox1.TabIndex = 127;
             this.pictureBox1.TabStop = false;
             this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
-            // 
-            // dgvUpdateForm
-            // 
-            this.dgvUpdateForm.AllowUserToAddRows = false;
-            this.dgvUpdateForm.AllowUserToDeleteRows = false;
-            this.dgvUpdateForm.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-            this.dgvUpdateForm.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.DisplayedCells;
-            this.dgvUpdateForm.BackgroundColor = System.Drawing.Color.DimGray;
-            this.dgvUpdateForm.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvUpdateForm.GridColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.dgvUpdateForm.Location = new System.Drawing.Point(1, 127);
-            this.dgvUpdateForm.Margin = new System.Windows.Forms.Padding(4);
-            this.dgvUpdateForm.Name = "dgvUpdateForm";
-            this.dgvUpdateForm.ReadOnly = true;
-            this.dgvUpdateForm.Size = new System.Drawing.Size(673, 400);
-            this.dgvUpdateForm.TabIndex = 132;
-            this.dgvUpdateForm.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvUpdateForm_CellContentClick);
             // 
             // client
             // 
@@ -280,9 +280,9 @@
             this.Name = "client";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Load += new System.EventHandler(this.client_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.dgvUpdateForm)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dgvUpdateForm)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 

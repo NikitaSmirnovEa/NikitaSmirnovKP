@@ -262,6 +262,9 @@
     <None Include="Resources\Red-Arrow-Clip-Art-Transparent-File1.png" />
     <None Include="Resources\5a1c7851499b82.61386583151181524930151.png" />
     <None Include="Resources\Red-Arrow-Clip-Art-Transparent-File2.png" />
+    <None Include="Resources\1646004345_1-kartinkin-net-p-strelochki-kartinki-1.png" />
+    <None Include="Resources\1646004345_1-kartinkin-net-p-strelochki-kartinki-11.png" />
+    <None Include="Resources\вц.png" />
     <Content Include="x_ray_radiology_imaging_medical_scan_icon_264509.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

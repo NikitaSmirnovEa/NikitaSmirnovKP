@@ -73,6 +73,26 @@ namespace vulrill.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _1646004345_1_kartinkin_net_p_strelochki_kartinki_1 {
+            get {
+                object obj = ResourceManager.GetObject("1646004345_1-kartinkin-net-p-strelochki-kartinki-1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _1646004345_1_kartinkin_net_p_strelochki_kartinki_11 {
+            get {
+                object obj = ResourceManager.GetObject("1646004345_1-kartinkin-net-p-strelochki-kartinki-11", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _5a1c7851499b82_6138658315118152493015 {
             get {
                 object obj = ResourceManager.GetObject("5a1c7851499b82.6138658315118152493015", resourceCulture);
@@ -126,6 +146,16 @@ namespace vulrill.Properties {
         internal static System.Drawing.Bitmap Red_Arrow_Clip_Art_Transparent_File2 {
             get {
                 object obj = ResourceManager.GetObject("Red-Arrow-Clip-Art-Transparent-File2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap вц {
+            get {
+                object obj = ResourceManager.GetObject("вц", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

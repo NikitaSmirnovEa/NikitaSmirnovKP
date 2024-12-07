@@ -8,17 +8,20 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using MySql.Data.MySqlClient;
-using System.IO; 
+using System.IO;
+using System.Timers;
 
 namespace vulrill
 {
     public partial class import : Form
     {
+
         public import()
         {
             InitializeComponent();
             LoadTableNames();
         }
+
 
         private void LoadTableNames()
         {
@@ -217,5 +220,10 @@ namespace vulrill
             admin.ShowDialog();
             this.Close();
         }
+        private void import_Load(object sender, EventArgs e)
+        {
+
+        }
+
     }
 }

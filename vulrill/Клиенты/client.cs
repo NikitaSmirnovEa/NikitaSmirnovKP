@@ -9,22 +9,24 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using vulrill.Клиенты;
+using System.Timers;
 
 namespace vulrill
 {
     public partial class client : Form
     {
+
         public client()
         {
             InitializeComponent();
-            StartPosition = FormStartPosition.CenterScreen;
-            this.dgvUpdateForm.RowPrePaint += new DataGridViewRowPrePaintEventHandler(dgvUpdateForm_RowPrePaint);
+   
         }
-
+  
         int row_id = 0;
         string phone_num = "";
         string FIO = "";
-        public int minScren = 0;
+        string poisk = "";
+        public int minScren = 1;
         public int maxScren = 10;
         public int count = 0;
         public int countlast;
@@ -116,7 +118,7 @@ namespace vulrill
 
         private void label1_Click(object sender, EventArgs e)
         {
-            minScren = 0;
+            minScren = 1;
             Search();
             label1.ForeColor = Color.Aqua;
             label5.ForeColor = Color.Black;
@@ -131,7 +133,7 @@ namespace vulrill
 
                 con.Open();
 
-                MySqlCommand cmd = new MySqlCommand($"SELECT id_Client AS 'id', surname AS 'Фамилия', `name` AS 'Имя', patronymic AS 'Отчество', phone_number AS 'Номер телефона', age AS 'Возраст' FROM `client` WHERE Name LIKE '%{search}%' OR Surname LIKE '%{search}%' LIMIT {minScren},{maxScren};", con);
+                MySqlCommand cmd = new MySqlCommand($"SELECT surname AS 'Фамилия', `name` AS 'Имя', patronymic AS 'Отчество', phone_number AS 'Номер телефона', age AS 'Возраст' FROM `client` WHERE Name LIKE '%{search}%' OR Surname LIKE '%{search}%' LIMIT {minScren},{maxScren};", con);
                 cmd.ExecuteNonQuery();
 
                 MySqlDataAdapter da = new MySqlDataAdapter(cmd);
@@ -198,6 +200,7 @@ namespace vulrill
                         label6.ForeColor = Color.Aqua;
                         label9.ForeColor = Color.Black;
                     }
+                    //
                     //
                     else if (minScren == 30)
                     {
@@ -409,6 +412,39 @@ namespace vulrill
             view();
             dgvUpdateForm.Rows[row_id].DefaultCellStyle.BackColor = Color.FromArgb(24, 23, 28);
             dgvUpdateForm.Rows[row_id].DefaultCellStyle.ForeColor = Color.Black;
+        }
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+            poisk = textBox3.Text;
+            viewTable();
+        }
+        //private void InitializeDataGridView()
+        //{
+        //    dgvUpdateForm.Columns.Clear(); // Удаляем старые столбцы, если они есть
+
+        //    dgvUpdateForm.Columns.Add("surname", "Фамилия");
+        //    dgvUpdateForm.Columns.Add("name", "Имя");
+        //    dgvUpdateForm.Columns.Add("patronymic", "Отчество");
+        //    dgvUpdateForm.Columns.Add("phone_number", "Номер телефона");
+        //    dgvUpdateForm.Columns.Add("age", "Возраст");
+        //}
+        private void viewTable()
+        {
+            using (MySqlConnection con = new MySqlConnection(helper.connect))
+            {
+                con.Open();
+                MySqlCommand cmd = new MySqlCommand($"SELECT surname, `name`, patronymic, phone_number, age FROM client " +
+                                                    $"WHERE surname LIKE @search " + 
+                                                    $"", con);
+                cmd.Parameters.AddWithValue("@search", $"%{poisk}%");
+
+                MySqlDataAdapter da = new MySqlDataAdapter(cmd);
+                DataTable dt = new DataTable();
+                da.Fill(dt);
+
+                // Устанавливаем DataTable как источник данных для DataGridView
+                dgvUpdateForm.DataSource = dt;
+            }
         }
         private void dgvUpdateForm_CellClick(object sender, DataGridViewCellEventArgs e)
         {

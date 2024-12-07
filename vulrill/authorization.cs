@@ -69,9 +69,8 @@ namespace vulrill
                 {
                     helper.role = "Локальный";
                     adminPanel admin = new adminPanel();
-                    this.Visible = false;
-                    admin.ShowDialog();
-                    this.Visible = true;
+                    this.Hide();
+                    admin.Show();
                 }
                 else
                 {

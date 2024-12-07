@@ -121,6 +121,7 @@ namespace vulrill
             this.Controls.Add(this.button3);
             this.Name = "import";
             this.Text = "import";
+            this.Load += new System.EventHandler(this.import_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

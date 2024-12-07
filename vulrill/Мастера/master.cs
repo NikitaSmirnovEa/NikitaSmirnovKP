@@ -8,14 +8,60 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Timers;
 
 namespace vulrill
 {
     public partial class master : Form
     {
+        private System.Timers.Timer inactivityTimer;
+        private int inactivityLimit; // Параметр бездействия в миллисекундах
+
+
         public master()
         {
+
             InitializeComponent();
+            StartPosition = FormStartPosition.CenterScreen;
+
+            // Настройка параметра бездействия (30 секунд по умолчанию)
+            inactivityLimit = 10000; // 30 секунд
+
+            // Инициализация таймера
+            inactivityTimer = new System.Timers.Timer(inactivityLimit);
+            inactivityTimer.Elapsed += OnInactivityTimeout;
+            inactivityTimer.AutoReset = false; // Остановить таймер после первого срабатывания
+            inactivityTimer.Start();
+        }
+        private void Form_MouseMove(object sender, MouseEventArgs e)
+        {
+            // Сброс таймера при движении мыши
+            ResetInactivityTimer();
+        }
+
+        private void OnInactivityTimeout(object sender, ElapsedEventArgs e)
+        {
+            this.Invoke((MethodInvoker)delegate {
+                // Перенаправление на форму авторизации
+                MessageBox.Show("Блокировка системы в случаи отсутствия активности! ");
+                Form1 authForm = new Form1();
+                authForm.Show();
+                this.Hide();
+            });
+        }
+
+
+        private void ResetInactivityTimer()
+        {
+            // Сброс таймера
+            inactivityTimer.Stop();
+            inactivityTimer.Start();
+        }
+        protected override bool ProcessCmdKey(ref Message msg, Keys keyData)
+        {
+            // Обработка нажатия клавиш
+            ResetInactivityTimer();
+            return base.ProcessCmdKey(ref msg, keyData);
         }
 
         int row_id = 0;
